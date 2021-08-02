@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This server helps you to manage your bank accounts",
   "main": "index.js",
-  "scripts":{
+  "scripts": {
     "start": "nodemon ."
   },
   "keywords": [
@@ -15,7 +15,8 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
